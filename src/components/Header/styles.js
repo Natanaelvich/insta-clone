@@ -1,13 +1,18 @@
 import styled from 'styled-components/native';
 
-export const Container = styled.View`
+export const Container = styled.SafeAreaView`
   background: #f5f5f5;
 `;
 
 export const RowContainer = styled.View`
-  padding: 10px 3px;
+  padding: 6px 3px;
   flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px;
 `;
-export const Logo = styled.Image``;
-export const Title = styled.Text``;
+export const Title = styled.Text`
+  font-size: 25px;
+  color: #000;
+  font-family: 'Shelter';
+  margin-left: 3px;
+`;

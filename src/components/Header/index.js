@@ -7,8 +7,8 @@ export default function Header() {
   return (
     <Container>
       <RowContainer>
-        <Title>Instagrando</Title>
         <Icon name="camera-enhance" size={28} color="#000" />
+        <Title>Instagrando</Title>
       </RowContainer>
     </Container>
   );
